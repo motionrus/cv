@@ -1,0 +1,42 @@
+@import "src/variables";
+
+.app__header {
+
+}
+
+.header {
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  @media (max-width: $sm) {
+    margin-top: 20px;
+  }
+}
+
+.header__logo {
+  width: 58px;
+  height: 58px;
+  border-radius: 48px;
+  border: 1px solid #FFFFFF;
+}
+
+.header__title {
+  flex-grow: 1;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+
+  .header__rus {
+    color: #5EBAD9;
+  }
+}
+
+.header__menu {
+}
+
+.header__item {
+}
+

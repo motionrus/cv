@@ -1,0 +1,33 @@
+@import "src/variables";
+
+.header-menu {
+  display: flex;
+  font-size: 14px;
+  gap: 55px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  list-style: none;
+  align-items: center;
+
+  @media (max-width: $md) {
+    box-sizing: border-box;
+    position: absolute;
+    flex-direction: column;
+    top: 95px;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.header-menu__item {
+  cursor: pointer;
+}
+
+
+.header-menu__img {
+  display: none;
+  @media (max-width: $md) {
+    display: block;
+    cursor: pointer;
+  }
+}
