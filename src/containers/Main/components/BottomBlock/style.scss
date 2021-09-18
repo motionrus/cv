@@ -1,0 +1,31 @@
+.main-bottom-block {
+  position: absolute;
+  bottom: 40px;
+  height: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main-bottom-block-right {
+  position: absolute;
+  bottom: 40px;
+  height: 35px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.bottom-block-right {
+  position: absolute;
+  left: 10px;
+
+}
+
+
+
+.bottom-block__info > a {
+  margin-right: 14px;
+  vertical-align: center;
+}

@@ -1,0 +1,57 @@
+@import "variables";
+.title-block {
+  margin-top: 223px;
+
+  @media (max-width: $md) {
+    margin-top: 103px;
+  }
+}
+
+.title-block__title {
+  margin-left: -6px;
+}
+
+.title-block__description {
+  margin-top: 12px;
+}
+
+.title-block__button-show {
+  margin-top: 56px;
+  @media (max-width: $sm) {
+    display: none;
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 112px;
+  color: white;
+  span {
+    color: #5EBAD9;
+  }
+
+  @media (max-width: $md) {
+    font-size: 72px;
+    line-height: 84px;
+  }
+}
+
+.description {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 128.91%;
+  letter-spacing: 0.25px;
+  color: #C0E6FF;
+
+}
+.button-show {
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 128.91%;
+  letter-spacing: 0.25px;
+  color: #FFFFFF;
+  background: #5EBAD9;
+  padding: 15px 30px;
+  cursor: pointer;
+}
