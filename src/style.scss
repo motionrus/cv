@@ -1,5 +1,8 @@
 @import "src/variables";
 
+body {
+  position:relative;
+}
 
 * {
   padding: 0;
@@ -23,9 +26,5 @@
 
   @media (max-width: $md) {
     max-width: $sm;
-  }
-
-  @media (max-width: $sm) {
-    min-width: 300px;
   }
 }

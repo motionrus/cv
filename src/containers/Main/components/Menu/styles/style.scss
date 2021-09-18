@@ -1,4 +1,4 @@
-@import "src/variables";
+@import "../../../../../variables";
 
 .header-menu {
   display: flex;
@@ -16,17 +16,21 @@
     top: 95px;
     left: 0;
     width: 100%;
+    background: #141d26;
+    padding: 16px 0;
   }
 }
 
 .header-menu__item {
   cursor: pointer;
+  z-index: 10;
 }
 
 
 .header-menu__img {
   display: none;
   @media (max-width: $md) {
+    z-index: 10;
     display: block;
     cursor: pointer;
   }

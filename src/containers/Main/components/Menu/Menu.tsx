@@ -36,6 +36,7 @@ const Menu = ({className}: IProps) => {
   useEffect(() => {
     // observe by change media screen
     const matchMedia = window.matchMedia('(max-width: 768px)')
+    if (matchMedia.matches) showMenu(false)
     matchMedia.addEventListener("change", (e) => {
       if (e.matches) {
         showMenu(false)
