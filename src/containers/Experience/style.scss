@@ -1,3 +1,15 @@
+.experience-title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  color: #39597C;
+}
+
 .experience {
-  height: 100vh;
+  background: url("./img/block3.jpg"), center center fixed;
+  background-size: cover;
+  padding: 79px 20px 0;
 }
