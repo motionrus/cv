@@ -1,0 +1,92 @@
+@import "variables";
+
+.employment {
+}
+
+.employment__description {
+  margin-top: 60px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: #787878;
+}
+
+.employment__title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 112px;
+  letter-spacing: -1.5px;
+  color: #39597C;
+
+  @media (max-width: $md) {
+    font-size: 64px;
+    line-height: 84px;
+  }
+}
+
+.employment__list {
+  margin-top: 65px;
+  font-size: 40px;
+  line-height: 61px;
+  color: #2E3436;
+  list-style-position: inside;
+  @media (max-width: $md) {
+    font-size: 32px;
+    list-style-type: none;
+  }
+}
+
+.employment__card {
+
+}
+
+.employment-card-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  gap: 36px;
+  padding: 87px 20px;
+  background: #F6FAFD;
+
+  @media (max-width: $md) {
+    flex-direction: column;
+    align-items: normal;
+  }
+
+}
+
+
+.employment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+
+  background: #FFFFFF;
+  border: 1px solid #D0D0D0;
+  border-radius: 10px;
+}
+
+.employment-card__img {
+
+}
+
+.employment-card__description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: #206179;
+}
+
+.employment-card__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: #2E3436;
+}

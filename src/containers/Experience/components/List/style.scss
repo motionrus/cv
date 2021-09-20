@@ -1,0 +1,36 @@
+.experience-list-cards {
+  border: 2px solid #B8E2FF;
+  width: fit-content;
+  justify-content: center;
+  margin: 127px auto 0;
+  background: white;
+
+  .experience-card {
+    border: none;
+    margin: unset;
+
+    .card-line {
+      top: 80px;
+    }
+  }
+
+  .experience-card:only-child {
+    .card-line {
+      display: none;
+    }
+  }
+
+  .experience-card:last-child {
+    .card-line {
+      display: none;
+    }
+  }
+
+  .experience-card:first-child {
+    .card-line {
+      top: 70px;
+    }
+  }
+}
+
+

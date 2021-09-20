@@ -1,0 +1,10 @@
+@import "variables";
+
+.card-line {
+  position: absolute;
+  left: -105px;
+
+  @media (max-width: 1300px) {
+    display: none;
+  }
+}
