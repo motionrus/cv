@@ -1,0 +1,70 @@
+.courses {
+  padding: 119px 20px;
+}
+
+.courses__list {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+.courses-card {
+  position: relative;
+  background: #F2F9FF;
+  filter: drop-shadow(0px 9px 14px rgba(0, 0, 0, 0.25));
+  width: 389px;
+  height: 217px;
+}
+
+
+.courses-card__part-background {
+  background: url("./img/Line.svg") top right no-repeat;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 180px;
+  height: 178px;
+}
+
+.courses-card__logo {
+  position: absolute;
+  top: 26px;
+  right: 26px;
+}
+
+.courses-card__description {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  justify-content: center;
+}
+
+.courses-card__p1 {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 42px;
+  letter-spacing: 0.25px;
+  color: #444444;
+}
+.courses-card__p2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.25px;
+  color: #000000;
+}
+.courses-card__p3 {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #616161;
+  padding: 5px 0;
+}
+.courses-card__p4 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.25px;
+  color: #000000;
+}

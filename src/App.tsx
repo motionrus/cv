@@ -4,6 +4,7 @@ import {Main} from "./containers/Main/Main";
 import Employment from "./containers/Employment/Employment";
 import Experience from "./containers/Experience/Experience";
 import Skills from "./containers/Skills/Skills";
+import Courses from "./containers/Courses/Courses";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Employment />
       <Experience />
       <Skills />
+      <Courses />
     </div>
   );
 }
