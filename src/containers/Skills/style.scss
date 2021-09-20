@@ -1,0 +1,46 @@
+@import "variables";
+
+.skills {
+  background: url("./img/background.jpg") center center fixed;
+  background-size: cover;
+  padding: 137px 0;
+  margin-top: 94px;
+
+  @media (max-width: $md) {
+    padding: 30px 0;
+  }
+}
+
+.skills__list {
+  margin-top: 125px;
+  @media (max-width: $md) {
+    margin-top: 15px;
+  }
+}
+
+.skills__tag-list {
+  margin-left: 54px;
+  margin-top: 76px;
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+
+
+  @media (max-width: $md) {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+}
+
+.common-tag {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #FFFFFF;
+  background: #4B709A;
+  padding: 8px 16px;
+  width: fit-content;
+  white-space: nowrap;
+}

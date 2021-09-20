@@ -3,6 +3,7 @@ import './style.scss';
 import {Main} from "./containers/Main/Main";
 import Employment from "./containers/Employment/Employment";
 import Experience from "./containers/Experience/Experience";
+import Skills from "./containers/Skills/Skills";
 
 function App() {
   return (
@@ -10,8 +11,10 @@ function App() {
       <Main/>
       <Employment />
       <Experience />
+      <Skills />
     </div>
   );
 }
 
 export default App;
+

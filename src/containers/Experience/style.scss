@@ -1,3 +1,4 @@
+@import "variables";
 .experience-title {
   font-weight: bold;
   font-size: 48px;
@@ -6,10 +7,15 @@
   letter-spacing: -1.5px;
   text-transform: uppercase;
   color: #39597C;
+
 }
 
 .experience {
   background: url("./img/block3.jpg"), center center fixed;
   background-size: cover;
   padding: 79px 20px 0;
+
+  @media (max-width: $md) {
+    padding: 20px 20px 0;
+  }
 }

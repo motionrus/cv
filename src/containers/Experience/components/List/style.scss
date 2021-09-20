@@ -1,9 +1,15 @@
+@import "variables";
+
 .experience-list-cards {
   border: 2px solid #B8E2FF;
   width: fit-content;
   justify-content: center;
   margin: 127px auto 0;
   background: white;
+
+  @media (max-width: $md) {
+    margin: 60px auto 0;
+  }
 
   .experience-card {
     border: none;

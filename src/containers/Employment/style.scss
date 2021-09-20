@@ -12,8 +12,7 @@
   color: #787878;
 }
 
-.employment__title {
-  margin-top: 10px;
+.title {
   font-weight: 900;
   font-size: 96px;
   line-height: 112px;
@@ -26,8 +25,12 @@
   }
 }
 
-.employment__list {
-  margin-top: 65px;
+.employment__title {
+  margin-top: 10px;
+
+}
+
+.common-list {
   font-size: 40px;
   line-height: 61px;
   color: #2E3436;
@@ -36,6 +39,10 @@
     font-size: 32px;
     list-style-type: none;
   }
+}
+
+.employment__list {
+  margin-top: 65px;
 }
 
 .employment__card {

@@ -10,8 +10,8 @@ const Employment = () => {
     <section className="employment">
       <div className="width-limit-container">
         <p className="employment__description">Desired position and salary</p>
-        <h1 className="employment__title">Full Stack Developer</h1>
-        <ul className="employment__list">
+        <h1 className="employment__title title">Full Stack Developer</h1>
+        <ul className="common-list employment__list">
           <li>Sofware Development</li>
           <li>Telecommunications</li>
         </ul>
