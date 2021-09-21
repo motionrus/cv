@@ -18,16 +18,28 @@
 }
 
 .menu-item {
-  cursor: pointer;
   z-index: 10;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  list-style: none;
-  font-size: 14px;
+
+  & a:hover {
+    color: #5ebad9;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  }
+  & a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+  }
 }
 
 .menu-item_black {
-  color: #000;
+  & a {
+    color: #000;
+  }
 }
 
 

@@ -7,7 +7,7 @@ import img3 from "./img/3.png"
 
 const Employment = () => {
   return (
-    <section className="employment">
+    <section className="employment" id="employment">
       <div className="width-limit-container">
         <p className="employment__description">Desired position and salary</p>
         <h1 className="employment__title title">Full Stack Developer</h1>

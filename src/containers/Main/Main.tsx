@@ -7,7 +7,7 @@ import BottomBlock from "./components/BottomBlock/BottomBlock";
 export const Main: React.FC<{}> = () => {
 
   return (
-    <div className="background">
+    <div className="background" id="home">
     <div className="main width-limit-container">
       <Header/>
       <TitleBlock />

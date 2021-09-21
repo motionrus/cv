@@ -7,6 +7,10 @@ interface IProps {
   className?: string
 }
 
+
+
+const matchMedia = window.matchMedia('(max-width: 768px)')
+
 const Menu = ({className}: IProps) => {
 
   const showMenu = (isShow: boolean) => {
@@ -21,10 +25,9 @@ const Menu = ({className}: IProps) => {
   }
 
   const toggleMenu = () => {
-
     const menu = document.querySelector<HTMLElement>(".header__menu.header-menu")
-    if (!menu) return
 
+    if (!menu) return
     if (menu.style.display === "none") {
       showMenu(true)
     } else {
@@ -32,11 +35,17 @@ const Menu = ({className}: IProps) => {
     }
   }
 
+  const closeDuration = () => {
+    if (matchMedia.matches) {
+      setTimeout(() => showMenu(false), 200)
+    }
+  };
 
   useEffect(() => {
     // observe by change media screen
-    const matchMedia = window.matchMedia('(max-width: 768px)')
-    if (matchMedia.matches) showMenu(false)
+    if (matchMedia.matches) {
+      showMenu(false)
+    }
     matchMedia.addEventListener("change", (e) => {
       if (e.matches) {
         showMenu(false)
@@ -48,11 +57,11 @@ const Menu = ({className}: IProps) => {
 
   const menu = (
     <ul className={`${className} header-menu`}>
-      <li className="menu-item hover-underline-animation">Home</li>
-      <li className="menu-item hover-underline-animation">Experience</li>
-      <li className="menu-item hover-underline-animation">Skills</li>
-      <li className="menu-item hover-underline-animation">Courses</li>
-      <li className="menu-item hover-underline-animation">About</li>
+      <li className="menu-item hover-underline-animation"><a onClick={closeDuration} href="/#home">Home</a></li>
+      <li className="menu-item hover-underline-animation"><a onClick={closeDuration} href="/#experience">Experience</a></li>
+      <li className="menu-item hover-underline-animation"><a onClick={closeDuration} href="/#skills">Skills</a></li>
+      <li className="menu-item hover-underline-animation"><a onClick={closeDuration} href="/#courses">Courses</a></li>
+      <li className="menu-item hover-underline-animation"><a onClick={closeDuration} href="/#about">About</a></li>
     </ul>
   )
   return (

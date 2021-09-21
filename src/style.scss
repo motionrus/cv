@@ -1,5 +1,8 @@
 @import "src/variables";
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   position:relative;
 }

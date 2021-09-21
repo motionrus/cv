@@ -8,7 +8,7 @@ import instagramIcon from "../Main/components/BottomBlock/icons/instagram.svg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="width-limit-container">
         <h1 className="title">About me</h1>
       </div>
@@ -33,20 +33,20 @@ const About = () => {
         </div>
       </div>
       <ul className="header-menu_flex">
-        <li className="menu-item menu-item_black">Home</li>
-        <li className="menu-item menu-item_black">Experience</li>
-        <li className="menu-item menu-item_black">Skills</li>
-        <li className="menu-item menu-item_black">Courses</li>
-        <li className="menu-item menu-item_black">About</li>
+        <li className="menu-item menu-item_black hover-underline-animation"><a href="/#home">Home</a></li>
+        <li className="menu-item menu-item_black hover-underline-animation"><a href="/#experience">Experience</a></li>
+        <li className="menu-item menu-item_black hover-underline-animation"><a href="/#skills">Skills</a></li>
+        <li className="menu-item menu-item_black hover-underline-animation"><a href="/#courses">Courses</a></li>
+        <li className="menu-item menu-item_black hover-underline-animation"><a href="/#about">About</a></li>
       </ul>
       <div className="bottom-page-background">
         <div className="bottom-page width-limit-container">
           <p className="logo-title normal-weight">motion<span>rus</span></p>
           <p className="copyright">© 2021 Copyright.</p>
           <div className="bottom-page__flex-right">
-            <a href="#"><img src={githubIcon} alt=""/></a>
-            <a href="#"><img src={telegramIcon} alt=""/></a>
-            <a href="#"><img src={instagramIcon} alt=""/></a>
+            <a target="_blank" href="https://github.com/motionrus"><img src={githubIcon} alt=""/></a>
+            <a target="_blank" href="https://t.me/motionrus"><img src={telegramIcon} alt=""/></a>
+            <a target="_blank" href="https://www.instagram.com/motionrus/"><img src={instagramIcon} alt=""/></a>
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ const skills = [
 const Skills = () => {
 
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div className="width-limit-container">
         <h1 className="title skills__title">Skills</h1>
         <ul className="common-list skills__list">

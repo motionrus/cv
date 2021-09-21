@@ -37,7 +37,7 @@ const myCards = [{
 
 const Courses = () => {
   return (
-    <div className="courses">
+    <div className="courses" id="courses">
       <div className="courses__list">
         {myCards.map((card, index) => <CoursesCard {...card} key={index}/>)}
       </div>

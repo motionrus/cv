@@ -6,6 +6,22 @@
   transform: translateX(-50%);
 }
 
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); }
+  50% {
+    -webkit-transform: translate(-50%, 10px);
+    transform: translate(-50%, 10px); }
+  100% {
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); }
+}
+
 .main-bottom-block-right {
   position: absolute;
   bottom: 40px;
@@ -22,8 +38,6 @@
   left: 10px;
 
 }
-
-
 
 .bottom-block__info > a {
   margin-right: 14px;
