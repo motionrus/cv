@@ -48,11 +48,11 @@ const Menu = ({className}: IProps) => {
 
   const menu = (
     <ul className={`${className} header-menu`}>
-      <li className="header-menu__item hover-underline-animation">Home</li>
-      <li className="header-menu__item hover-underline-animation">Experience</li>
-      <li className="header-menu__item hover-underline-animation">Skills</li>
-      <li className="header-menu__item hover-underline-animation">Courses</li>
-      <li className="header-menu__item hover-underline-animation">About</li>
+      <li className="menu-item hover-underline-animation">Home</li>
+      <li className="menu-item hover-underline-animation">Experience</li>
+      <li className="menu-item hover-underline-animation">Skills</li>
+      <li className="menu-item hover-underline-animation">Courses</li>
+      <li className="menu-item hover-underline-animation">About</li>
     </ul>
   )
   return (

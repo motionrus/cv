@@ -25,13 +25,19 @@
 
 .header__title {
   flex-grow: 1;
+}
+
+.logo-title {
   font-weight: bold;
   font-size: 20px;
   color: white;
-
-  .header__rus {
+  span {
     color: #5EBAD9;
   }
+}
+
+.normal-weight {
+  font-weight: normal;
 }
 
 .header__menu {

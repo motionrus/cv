@@ -2,11 +2,7 @@
 
 .header-menu {
   display: flex;
-  font-size: 14px;
   gap: 55px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  list-style: none;
   align-items: center;
 
   @media (max-width: $md) {
@@ -21,9 +17,17 @@
   }
 }
 
-.header-menu__item {
+.menu-item {
   cursor: pointer;
   z-index: 10;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  list-style: none;
+  font-size: 14px;
+}
+
+.menu-item_black {
+  color: #000;
 }
 
 
