@@ -69,8 +69,7 @@ jobs:
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
-          sudo docker pull ${{ secrets.DOCKER_HUB_USERNAME }}/cv:latest
-          sudo docker stop cv
-          sudo docker container rm cv
-          sudo docker run -d -p 8080:80 --name cv --restart=on-failure:10 ${{ secrets.DOCKER_HUB_USERNAME }}/cv:latest
-          
+            sudo docker pull ${{ secrets.DOCKER_HUB_USERNAME }}/cv:latest
+            sudo docker stop cv
+            sudo docker container rm cv
+            sudo docker run -d -p 8080:80 --name cv --restart=on-failure:10 ${{ secrets.DOCKER_HUB_USERNAME }}/cv:latest
