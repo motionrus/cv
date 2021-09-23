@@ -6,7 +6,7 @@ const TitleBlock = () => {
     <div className="title-block">
       <h1 className="main-title title-block__title">Hi, I am <span>Ruslan</span></h1>
       <p className="description title-block__description">Full Stack Developer</p>
-      <button className="button-show title-block__button-show">SHOW EXPERIENCE</button>
+      <a className="button-show title-block__button-show" href="/#experience" >SHOW EXPERIENCE</a>
     </div>
   );
 };
