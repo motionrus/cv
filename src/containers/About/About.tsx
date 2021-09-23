@@ -41,7 +41,7 @@ const About = () => {
       </ul>
       <div className="bottom-page-background">
         <div className="bottom-page width-limit-container">
-          <p className="logo-title normal-weight">motion<span>rus</span></p>
+          <a href="/#home" className="logo-title normal-weight">motion<span>rus</span></a>
           <p className="copyright">© 2021 Copyright.</p>
           <div className="bottom-page__flex-right">
             <a target="_blank" href="https://github.com/motionrus"><img src={githubIcon} alt=""/></a>
