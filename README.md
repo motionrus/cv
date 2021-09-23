@@ -1,3 +1,4 @@
+[![CI to Docker Hub](https://github.com/motionrus/cv/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/motionrus/cv/actions/workflows/main.yml)
 # Curriculum vitae
 
 - Build by React
