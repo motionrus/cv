@@ -42,7 +42,7 @@ const About = () => {
       <div className="bottom-page-background">
         <div className="bottom-page width-limit-container">
           <a href="/#home" className="logo-title normal-weight">motion<span>rus</span></a>
-          <p className="copyright">© 2021 Copyright.</p>
+          <p className="copyright">© 2022 Copyright.</p>
           <div className="bottom-page__flex-right">
             <a target="_blank" href="https://github.com/motionrus"><img src={githubIcon} alt=""/></a>
             <a target="_blank" href="https://t.me/motionrus"><img src={telegramIcon} alt=""/></a>
