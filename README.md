@@ -3,7 +3,7 @@
 
 - Build by React
 - Responsive and Adaptive Web Design
-- [Demo](https://motionrus.site)
+- [Demo](https://motions.site)
 
 ![image](https://user-images.githubusercontent.com/14940768/134124959-11f1e21c-1be0-48a5-aef7-2f0d1069c03d.png)
 
